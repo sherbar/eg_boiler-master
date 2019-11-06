@@ -25,6 +25,65 @@
       <a class= "nav-item more">
         <span class="label"><i class="fas fa-ellipsis-h"></i>More</span>
       </a>
+      <a href="javascript;voild(0);" class="nav-item trigram" onclick="navToggle()">&#9776;</a>
+    </nav>
+    <section class="slideshow">
+      <div class="slideshow-wrapper">
+        <div class="slide fade">
+          <div class="numberof">1 of 4</div>
+          <img src="https://picsum.photos/1280/448/?image=12"/>
+          <div class="captiontext">A beautiful view of it.</div>
+        </div>
+        <div class="slide fade">
+          <div class="numberof">2 of 4</div>
+          <img src="https://picsum.photos/1280/448/?image=13"/>
+          <div class="captiontext">The whole thing in all its glory.</div>
+        </div>
+        <div class="slide fade">
+          <div class="numberof">3 of 4</div>
+          <img src="https://picsum.photos/1280/448/?image=15"/>
+          <div class="captiontext">Out at the edges of it.</div>
+        </div>
+        <div class="slide fade">
+          <div class="numberof"> 4 of 4</div>
+          <img src="https://picsum.photos/1280/448/?image=16"/>
+          <div class="captiontext"> Deep inside the heart of it.</div>
+        </div>
+        <br/>
+        <div class="text-center">
+          <span class="indicator" onclick="currentSlide(1)"><img src="https://picsum.photos/1280/448/?image=12"/></span>
+          <span class="indicator" onclick="currentSlide(2)"><img src="https://picsum.photos/1280/448/?image=13"/></span>
+          <span class="indicator" onclick="currentSlide(3)"><img src="https://picsum.photos/1280/448/?image=15"/></span>
+          <span class="indicator" onclick="currentSlide(4)"><img src="https://picsum.photos/1280/448/?image=16"/></span>
+        </div>
+      </section>
+      <main class="main-grid">
+        <div class="main-grid-item one">
+          <div class="thumb"></div><hr/>
+          <div class="card-content">
+            <h4 class="card-title"> Tea + Devices = Fun</h4>
+            <p class="card-text"> I always keep a cup of tea next to my expensive electronics, just in case I need to ruin them quickly...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-grid-item two">
+      <div class="thumb"></div><hr/>
+      <div class="card-content">
+        <h4 class="card-title">Out of Focus Book</h4>
+        <p class="card-text">Books are always best when slightly out of focus and blurred, so you don't have to actually read any of the words inside.</p>
+        <button data-modal="#24" class="card-more button">View</button>
+      </div>
+    </div>
+    <div id="24" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+        <img src="https://picsum.photos/800/450/?image=24" alt="example"/>
+        <div class="eg-text">
+          <h3> Out of Focus Book </h3>
+          <p> Books are always best when slightly out of focus and blurred, so you don't have to actaully read any of the inside</p>
+          <img src="" alt="">
       <a href="#" class="nav-links">One</a>
       <a href="#" class="nav-links">Two</a>
       <a href="#" class="nav-links">Three</a>
